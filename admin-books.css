@@ -1,0 +1,18 @@
+.category-print{
+    background-color: transparent;
+}
+.category-print button{
+    background-color: white;
+    padding: 10px 10px 20px 10px;
+    font-size: 15px;
+}
+.tables table{
+    font-weight: normal;
+    font-size: 15px;
+    border: none;
+    
+}
+.tables table th{
+    padding-left: 5px;
+    padding-right: 5px;
+}

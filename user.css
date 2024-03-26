@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+}
+.nav{
+    margin: 0;
+    padding: 0;
+
+}
+.nav img{
+    width: 100px;
+    height: 100px;
+}
+.nav a{
+    text-decoration: none;
+}
+

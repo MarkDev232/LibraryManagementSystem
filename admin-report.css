@@ -1,0 +1,7 @@
+.filter-date{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.filter-date input[type=date]{
+    width:250px;
+}

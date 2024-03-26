@@ -1,0 +1,61 @@
+.main-container{
+background-color: #DED0B6;
+height: 700px;
+}
+.tables table{
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+.tables table tr th{
+    font-size: 15px;
+    background-color: #76453B;
+    color: white;
+    padding: 2px;
+    text-align: left;
+
+}
+.tables table tr td{
+    font-size: 12px;
+    border: 1px solid #76453B;
+    padding: 10px;
+    text-align: left;
+}
+.category-print button{
+    height: 60px;
+    padding-right: 100px;
+    padding-left: 100px;
+    border-radius: 20px;
+    border: none;
+}
+.category-print{
+    background-color: transparent;
+}
+.category-print .btn1{
+    background-color: #3ab563;
+    box-shadow: 9px -1px 75px 0px rgba(120, 134, 125, 0.75) inset;
+-webkit-box-shadow: 9px -1px 75px 0px rgba(122, 232, 160, 0.75) inset;
+-moz-box-shadow: 9px -1px 75px 0px rgba(122, 232, 160, 0.75) inset;
+}
+.category-print .btn1 a{
+    color: white;
+}
+.category-print .btn2{
+    background-color: #f44336;
+    box-shadow: 9px -1px 75px 0px rgba(217,52,52,0.75) inset;
+-webkit-box-shadow: 9px -1px 75px 0px rgba(217,52,52,0.75) inset;
+-moz-box-shadow: 9px -1px 75px 0px rgba(217,52,52,0.75) inset;
+    
+}.category-print .btn2 a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.category-print .btn3{
+    background-color: #2273b5;
+    box-shadow: 9px -1px 75px 0px rgba(158, 198, 229, 0.75) inset;
+-webkit-box-shadow: 9px -1px 75px 0px rgba(158, 198, 229, 0.75) inset;
+-moz-box-shadow: 9px -1px 75px 0px rgba(158, 198, 229, 0.75) inset;
+}
+.category-print .btn3 a{
+    color: white;
+}
