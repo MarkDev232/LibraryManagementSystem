@@ -47,12 +47,13 @@
             // Update other fields
             $query1 = "UPDATE book_info SET book_Name='$names', book_Author='$auts', book_Price='$prices', book_Qty='$qtys' WHERE book_ID='$id'";
             mysqli_query($con, $query1);
-            echo"
-                <script>
-                    alert('Updated Successfully!');
-                    location.href='admin-book.php';
-                </script>
-                ";
+            // echo"
+            //     <script>
+            //         alert('Updated Successfully!');
+            //         location.href='admin-book.php';
+            //     </script>
+            //     ";
+            echo(  mysqli_query($con, $query1));
             }
         else{
             echo"
