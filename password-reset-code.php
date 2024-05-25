@@ -19,8 +19,8 @@
             $mail->isSMTP();                                            //Send using SMTP
             $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
             $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-            $mail->Username   = 'malvinhipolito57@gmail.com';                     //SMTP username
-            $mail->Password   = 'ejyfapnepwgogoht';                               //SMTP password
+            $mail->Username   = 'techlibra68@gmail.com';                     //SMTP username
+            $mail->Password   = 'rvud zjtc imwv msnr';                               //SMTP password
             $mail->SMTPSecure = 'ssl';
             //Enable implicit TLS encryption
             $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
@@ -34,7 +34,7 @@
             $mail->Body    = "
             <h2>Hello</h2>
             <h3>You are receiving this email because we received a password reset request for your account.</h3> <br><br>
-            <a href='http://localhost/Admin/password-change.php?token=$token&User_Email=$get_email'>Click Me</a>
+            <a href='http://localhost/admin/password-change.php?token=$token&User_Email=$get_email'>Click Me</a>
             ";
             $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
         
